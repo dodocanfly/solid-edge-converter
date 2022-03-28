@@ -1,0 +1,1424 @@
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft" -o="C:\ASMtoBOM\trzy\korpus.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft
+-o=C:\ASMtoBOM\trzy\korpus.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft
+OutPut File name is : C:\ASMtoBOM\trzy\korpus.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\korpus.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft" -o="C:\ASMtoBOM\trzy\korpus.jpg" -t=jpg
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft
+-o=C:\ASMtoBOM\trzy\korpus.jpg
+-t=jpg
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft
+OutPut File name is : C:\ASMtoBOM\trzy\korpus.jpg
+Translate to : jpg
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\korpus.jpg,11,8,5,300,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft" -o="C:\ASMtoBOM\trzy\korpus.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft
+-o=C:\ASMtoBOM\trzy\korpus.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\FSP_MOBIL\1_KorpusL.dft
+OutPut File name is : C:\ASMtoBOM\trzy\korpus.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\korpus.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m.pdf" -t=pdf -m=TRUE
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 4
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m.pdf
+-t=pdf
+-m=TRUE
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft : TRUE
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m.pdf" -t=pdf -m=true
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 4
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m.pdf
+-t=pdf
+-m=true
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft : true
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m2.pdf" -t=pdf -m=1,3
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 4
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m2.pdf
+-t=pdf
+-m=1,3
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m2.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft : 1,3
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m2.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m3.pdf" -t=pdf -m=2-3
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 4
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m3.pdf
+-t=pdf
+-m=2-3
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft : 2-3
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m3.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m3.jpg" -t=jpg -w=300 -h=200
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 5
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m3.jpg
+-t=jpg
+-w=300
+-h=200
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3.jpg
+Translate to : jpg
+Make Solid Edge Visible :
+Image Width : 300
+Image Height : 200
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\s1500m3.jpg,16,5354330708661,11,6929133858268,300,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -w=300 -h=200 -a=a -b=b -c=c
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 8
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-w=300
+-h=200
+-a=a
+-b=b
+-c=c
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible :
+Image Width : 300
+Image Height : 200
+Image Resolution :
+Image Color Depth : c
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Error input color depth MUST be numeric :
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\s1500m4.jpg,16,5354330708661,11,6929133858268,300,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -w=100 -h=100 -a=a -b=b -c=0
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 8
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-w=100
+-h=100
+-a=a
+-b=b
+-c=0
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution :
+Image Color Depth : 0
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\s1500m4.jpg,16,5354330708661,11,6929133858268,300,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 16
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution :
+Image Color Depth : 1
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\s1500m4.jpg,16,5354330708661,11,6929133858268,300,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=m
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 17
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=m
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution :
+Image Color Depth : 1
+Image Quality :
+Multiple Sheet Draft : m
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\s1500m4.jpg,16,5354330708661,11,6929133858268,300,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=pdf -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=m
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 17
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=pdf
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=m
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution :
+Image Color Depth : 1
+Image Quality :
+Multiple Sheet Draft : m
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m4.jpg
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.pdf" -t=pdf -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=m
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 17
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.pdf
+-t=pdf
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=m
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution :
+Image Color Depth : 1
+Image Quality :
+Multiple Sheet Draft : m
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m4.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.pdf" -t=pdf -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=tru
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 17
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.pdf
+-t=pdf
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=tru
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution :
+Image Color Depth : 1
+Image Quality :
+Multiple Sheet Draft : tru
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m4.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.pdf" -t=pdf -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=true
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 17
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.pdf
+-t=pdf
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=true
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution :
+Image Color Depth : 1
+Image Quality :
+Multiple Sheet Draft : true
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m4.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.pdf" -t=pdf -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=1
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 17
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.pdf
+-t=pdf
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=1
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution :
+Image Color Depth : 1
+Image Quality :
+Multiple Sheet Draft : 1
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m4.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.pdf" -t=pdf -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=1 -p=p -q=q -r=r
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 20
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.pdf
+-t=pdf
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=1
+-p=p
+-q=q
+-r=r
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution : r
+Image Color Depth : 1
+Image Quality : q
+Multiple Sheet Draft : 1
+Export 3D PDF from 3D file types : False
+Error input resolution MUST be numeric :
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m4.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.pdf" -t=pdf -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=1 -p=p -q=q -r=444
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 20
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.pdf
+-t=pdf
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=1
+-p=p
+-q=q
+-r=444
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution : 444
+Image Color Depth : 1
+Image Quality : q
+Multiple Sheet Draft : 1
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m4.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=1 -p=p -q=q -r=444
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 20
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=1
+-p=p
+-q=q
+-r=444
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution : 444
+Image Color Depth : 1
+Image Quality : q
+Multiple Sheet Draft : 1
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\s1500m4.jpg,16,5354330708661,11,6929133858268,444,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -w=100 -h=100 -a=a -b=b -c=1 -d=d -e=e -f=f -g=g -j=j -k=k -l=l -n=n -m=1 -p=p -q=q -r=300
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 20
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-w=100
+-h=100
+-a=a
+-b=b
+-c=1
+-d=d
+-e=e
+-f=f
+-g=g
+-j=j
+-k=k
+-l=l
+-n=n
+-m=1
+-p=p
+-q=q
+-r=300
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible :
+Image Width : 100
+Image Height : 100
+Image Resolution : 300
+Image Color Depth : 1
+Image Quality : q
+Multiple Sheet Draft : 1
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\s1500m4.jpg,16,5354330708661,11,6929133858268,300,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -q=q -w=w -e=e -r=r -y=y -u=u -p=p -a=a -s=s -d=d -f=f -g=g -h=h -j=j -k=k -l=l -z=z -x=x -c=c -v=v -b=b -n=n -m=m
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 26
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-q=q
+-w=w
+-e=e
+-r=r
+-y=y
+-u=u
+-p=p
+-a=a
+-s=s
+-d=d
+-f=f
+-g=g
+-h=h
+-j=j
+-k=k
+-l=l
+-z=z
+-x=x
+-c=c
+-v=v
+-b=b
+-n=n
+-m=m
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible : v
+Image Width : w
+Image Height : h
+Image Resolution : r
+Image Color Depth : c
+Image Quality : q
+Multiple Sheet Draft : m
+Export 3D PDF from 3D file types : False
+Error input width MUST be numeric :
+Error input height MUST be numeric :
+Error input resolution MUST be numeric :
+Error input color depth MUST be numeric :
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Arguments to SE Save As Image API: C:\ASMtoBOM\trzy\s1500m4.jpg,11,8,5,300,seImageQualityMedium
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft2" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -q=q -w=w -e=e -r=r -y=y -u=u -p=p -a=a -s=s -d=d -f=f -g=g -h=h -j=j -k=k -l=l -z=z -x=x -c=c -v=v -b=b -n=n -m=m
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 26
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft2
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-q=q
+-w=w
+-e=e
+-r=r
+-y=y
+-u=u
+-p=p
+-a=a
+-s=s
+-d=d
+-f=f
+-g=g
+-h=h
+-j=j
+-k=k
+-l=l
+-z=z
+-x=x
+-c=c
+-v=v
+-b=b
+-n=n
+-m=m
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.dft2
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible : v
+Image Width : w
+Image Height : h
+Image Resolution : r
+Image Color Depth : c
+Image Quality : q
+Multiple Sheet Draft : m
+Export 3D PDF from 3D file types : False
+Error input width MUST be numeric :
+Error input height MUST be numeric :
+Error input resolution MUST be numeric :
+Error input color depth MUST be numeric :
+Error : Please input valid translate to format based on input file type
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x4252.dft" -o="C:\ASMtoBOM\trzy\s1500m4.jpg" -t=jpg -q=q -w=w -e=e -r=r -y=y -u=u -p=p -a=a -s=s -d=d -f=f -g=g -h=h -j=j -k=k -l=l -z=z -x=x -c=c -v=v -b=b -n=n -m=m
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 26
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x4252.dft
+-o=C:\ASMtoBOM\trzy\s1500m4.jpg
+-t=jpg
+-q=q
+-w=w
+-e=e
+-r=r
+-y=y
+-u=u
+-p=p
+-a=a
+-s=s
+-d=d
+-f=f
+-g=g
+-h=h
+-j=j
+-k=k
+-l=l
+-z=z
+-x=x
+-c=c
+-v=v
+-b=b
+-n=n
+-m=m
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x4252.dft
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m4.jpg
+Translate to : jpg
+Make Solid Edge Visible : v
+Image Width : w
+Image Height : h
+Image Resolution : r
+Image Color Depth : c
+Image Quality : q
+Multiple Sheet Draft : m
+Export 3D PDF from 3D file types : False
+Error input width MUST be numeric :
+Error input height MUST be numeric :
+Error input resolution MUST be numeric :
+Error input color depth MUST be numeric :
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Input File can not be found : V:\SZWECJA\Szafy_S\S1500_425\S1500x4252.dft
+Error translating file : C:\ASMtoBOM\trzy\s1500m4.jpg->Nieokreślony błąd. (Wyjątek od HRESULT: 0x80004005 (E_FAIL))
+Error closing file : V:\SZWECJA\Szafy_S\S1500_425\S1500x4252.dft->Nieokreślony błąd. (Wyjątek od HRESULT: 0x80004005 (E_FAIL))
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf -q=q -w=w -e=e -r=r -y=y -u=u -p=p -a=a -s=s -d=d -f=f -g=g -h=h -j=j -k=k -l=l -z=z -x=x -c=c -v=true -b=b -n=n -m=m
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 26
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+-q=q
+-w=w
+-e=e
+-r=r
+-y=y
+-u=u
+-p=p
+-a=a
+-s=s
+-d=d
+-f=f
+-g=g
+-h=h
+-j=j
+-k=k
+-l=l
+-z=z
+-x=x
+-c=c
+-v=true
+-b=b
+-n=n
+-m=m
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible : true
+Image Width : w
+Image Height : h
+Image Resolution : r
+Image Color Depth : c
+Image Quality : q
+Multiple Sheet Draft : m
+Export 3D PDF from 3D file types : False
+Error input width MUST be numeric :
+Error input height MUST be numeric :
+Error input resolution MUST be numeric :
+Error input color depth MUST be numeric :
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m3d.pdf
+
+-i= Input File name is
+-o = OutPut File name is
+-t= Translate to
+-v= Make Solid Edge Visible [false/true]
+-w= Image Width
+    Error input width MUST be numeric
+-h= Image Height
+    Error input height MUST be numeric
+-r= Image Resolution
+    Error input resolution MUST be numeric
+-c= Image Color Depth
+    Error input color depth MUST be numeric
+-q= Image Quality
+-m= Multiple Sheet Draft [false/true]
+
+
+Jeśli SE nieuruchomiony:
+*** Solid Edge NOT running so must start Solid Edge session.
+
+
+
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf -v=true
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 4
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+-v=true
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible : true
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m3d.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m3d.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+*** Solid Edge NOT running so must start Solid Edge session.
+Successfully called function to connect to or start new Solid Edge.
+Argument to SE Save As API: C:\ASMtoBOM\trzy\s1500m3d.pdf
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
+
+C:\Program Files\Siemens\Solid Edge 2022\Program>SolidEdgeTranslationServices.exe -i="V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm" -o="C:\ASMtoBOM\trzy\s1500m3d.pdf" -t=pdf
+SolidEdgeTranslationsServices V 222.0.0.132
+
+
+ number of input commandline arguments is: 3
+-i=V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+-o=C:\ASMtoBOM\trzy\s1500m3d.pdf
+-t=pdf
+
+
+Solid Edge Version information
+Solid Edge Version : 222.00.03.003 x64
+Input File name is : V:\SZWECJA\Szafy_S\S1500_425\S1500x425.asm
+OutPut File name is : C:\ASMtoBOM\trzy\s1500m3d.pdf
+Translate to : pdf
+Make Solid Edge Visible :
+Image Width :
+Image Height :
+Image Resolution :
+Image Color Depth :
+Image Quality :
+Multiple Sheet Draft :
+Export 3D PDF from 3D file types : False
+Passed validate input tests based on file type to be exported.
+Error:  Could not start Solid Edge ->Pobranie fabryki klasy COM dla składnika o identyfikatorze CLSID {DED89DB0-45B6-11CE-B307-0800363A1E02} nie powiodło się z powodu następującego błędu: 80080005 Wykonanie serwera nie powiodło się. (Wyjątek od HRESULT: 0x80080005 (CO_E_SERVER_EXEC_FAILURE)).
+Use 3D translator :False
+Use 2D translator :False
+Convert to image :True
+Error:  check to make sure inputs are correct.
