@@ -84,6 +84,8 @@ class SolidEdgeConverterTest extends TestCase
             ->to(__DIR__ . '/another/directory/file.jpg')
             ->depth($converter::COLOR_DEPTH_TRUE_COLOR)
             ->quality($converter::IMAGE_QUALITY_HIGH)
+            ->multipleSheet()
+            ->solidEdgeVisible()
             ->convert();
 
         self::assertTrue($converter);

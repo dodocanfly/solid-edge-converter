@@ -8,6 +8,8 @@ use Dodocanfly\SolidEdgeConverter\Exceptions\FileWritePermissionDeniedExtension;
 use Dodocanfly\SolidEdgeConverter\Exceptions\InputFileNotExistsExtension;
 use Dodocanfly\SolidEdgeConverter\Exceptions\WrongInputFiletypeException;
 use Dodocanfly\SolidEdgeConverter\Exceptions\WrongOutputFiletypeException;
+use Dodocanfly\SolidEdgeConverter\Exceptions\WrongSolidEdgeTranslationServicesPathException;
+use ReflectionClass;
 
 class SolidEdgeConverter
 {
@@ -40,13 +42,11 @@ class SolidEdgeConverter
         'jpg', 'pdf'
     ];
 
-    private const FILETYPE_PARAMETERS = [
-        'jpg' => [],
-    ];
-
 
     private FilesystemInterface $filesystem;
     private ProcessInterface $process;
+
+    private string $solidEdgeTranslationServicesPath = '';
 
     private string $inputFilePath = '';
     private string $outputFilePath = '';
@@ -57,13 +57,30 @@ class SolidEdgeConverter
     private int $height = 0;
     private int $resolution = 0;
     private int $colorDepth = 0;
-    private string $multipleSheet = '';
+    private string $multipleSheet = 'FALSE';
+    private string $solidEdgeVisible = 'FALSE';
+
+    private array $command = [];
+
+    private array $defaultValues = [];
 
 
     public function __construct(FilesystemInterface $filesystem, ProcessInterface $process)
     {
         $this->filesystem = $filesystem;
         $this->process = $process;
+    }
+
+
+    public function setSolidEdgeTranslationServicesPath(string $solidEdgeTranslationServicesPath): void
+    {
+        if (
+            !$this->filesystem::isFileExists($solidEdgeTranslationServicesPath)
+            || $this->filesystem::getExtension($solidEdgeTranslationServicesPath) !== 'exe'
+        ) {
+            throw new WrongSolidEdgeTranslationServicesPathException('Path: ' . $solidEdgeTranslationServicesPath);
+        }
+        $this->solidEdgeTranslationServicesPath = $solidEdgeTranslationServicesPath;
     }
 
 
@@ -131,17 +148,60 @@ class SolidEdgeConverter
     }
 
 
+    public function solidEdgeVisible(): self
+    {
+        $this->solidEdgeVisible = 'TRUE';
+        return $this;
+    }
+
+
+    public function multipleSheet(): self
+    {
+        $this->multipleSheet = 'TRUE';
+        return $this;
+    }
+
+
     public function convert(): bool
     {
+        $this->setSolidEdgeTranslationServicesPath('C:\Program Files\Siemens\Solid Edge 2022\Program\SolidEdgeTranslationServices.exe');
         $this->prepareParameters();
-        $file = $this->inputFilePath . $this->outputFilePath;
-        return (bool)$file;
+        print_r(implode(' ', $this->command));
+        return true;
+        $this->process->setCommand($this->command)->run();
+        return true;
     }
 
 
     private function prepareParameters(): void
     {
+        $this->command[] = '"' . $this->solidEdgeTranslationServicesPath . '"';
+        $this->command[] = '-i="' . $this->inputFilePath . '"';
+        $this->command[] = '-o="' . $this->outputFilePath . '"';
+        $this->command[] = '-t=' . $this->outputFormat;
+        $this->addParameterToCommandArray('v', 'solidEdgeVisible');
+        $this->addParameterToCommandArray('w', 'width');
+        $this->addParameterToCommandArray('h', 'height');
+        $this->addParameterToCommandArray('r', 'resolution');
+        $this->addParameterToCommandArray('c', 'colorDepth');
+        $this->addParameterToCommandArray('q', 'quality');
+        $this->addParameterToCommandArray('m', 'multipleSheet');
+    }
 
+
+    private function addParameterToCommandArray(string $parameterLetter, string $propertyName): void
+    {
+        if (empty($this->defaultValues)) {
+            $reflection = new ReflectionClass(self::class);
+            $this->defaultValues = $reflection->getDefaultProperties();
+        }
+        try {
+            if (array_key_exists($propertyName, $this->defaultValues) && $this->defaultValues[$propertyName] !== $this->$propertyName) {
+                $this->command[] = '-'.$parameterLetter.'=' . $this->$propertyName;
+            }
+        } catch (\ReflectionException $e) {
+            // do nothing
+        }
     }
 
 
