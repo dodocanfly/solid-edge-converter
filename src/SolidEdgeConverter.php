@@ -239,6 +239,14 @@ class SolidEdgeConverter
         return false;
     }
 
+    public function getCommandLine(): string
+    {
+        $this->prepareParameters();
+        return $this->process
+            ->setCommand($this->command)
+            ->getCommandLine();
+    }
+
     private function analyzeOutput(array $output): void
     {
         $this->clearErrors();

@@ -26,9 +26,14 @@ class ProcessManager implements ProcessInterface
 
     public function run(): int
     {
-        $commandString = implode(' ', $this->command);
-        exec($commandString, $this->output, $this->resultCode);
+        exec($this->getCommandLine(), $this->output, $this->resultCode);
         return $this->resultCode;
+    }
+
+
+    public function getCommandLine(): string
+    {
+        return implode(' ', $this->command);
     }
 
 
