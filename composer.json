@@ -2,8 +2,7 @@
     "name": "dodocanfly/solid-edge-converter",
     "description": "Class to convert solid edge files by SolidEdgeTranslationsServices",
     "require": {
-        "php": ">=7.4",
-        "ext-iconv": "*"
+        "php": ">=7.4"
     },
     "require-dev": {
         "phpunit/phpunit": ">=9.0"
