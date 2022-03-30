@@ -5,6 +5,7 @@ use Dodocanfly\SolidEdgeConverter\Exceptions\FileWritePermissionDeniedExtension;
 use Dodocanfly\SolidEdgeConverter\Exceptions\InputFileNotExistsExtension;
 use Dodocanfly\SolidEdgeConverter\Exceptions\WrongInputFiletypeException;
 use Dodocanfly\SolidEdgeConverter\Exceptions\WrongOutputFiletypeException;
+use Dodocanfly\SolidEdgeConverter\Exceptions\WrongSolidEdgeTranslationServicesPathException;
 use Dodocanfly\SolidEdgeConverter\FilesystemManager;
 use Dodocanfly\SolidEdgeConverter\ProcessManager;
 use Dodocanfly\SolidEdgeConverter\SolidEdgeConverter;
@@ -80,10 +81,11 @@ class SolidEdgeConverterTest extends TestCase
     {
         $converter = self::newConverter();
 
+        $this->expectException(WrongSolidEdgeTranslationServicesPathException::class);
         $converter = $converter->from(__DIR__ . '/sample_files/sample_dft_file.dft')
             ->to(__DIR__ . '/another/directory/file.jpg')
-            ->depth($converter::COLOR_DEPTH_TRUE_COLOR)
-            ->quality($converter::IMAGE_QUALITY_HIGH)
+            ->setColorDepth24bit()
+            ->setQualityHigh()
             ->multipleSheet()
             ->solidEdgeVisible()
             ->convert();

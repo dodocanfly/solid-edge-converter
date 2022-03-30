@@ -7,7 +7,7 @@ use Dodocanfly\SolidEdgeConverter\Contracts\ProcessInterface;
 class ProcessManager implements ProcessInterface
 {
     private array $command = [];
-    private string $output = '';
+    private array $output = [];
     private int $resultCode = 0;
 
 
@@ -32,7 +32,7 @@ class ProcessManager implements ProcessInterface
     }
 
 
-    public function getOutput(): string
+    public function getOutput(): array
     {
         return $this->output;
     }

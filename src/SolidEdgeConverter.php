@@ -6,10 +6,21 @@ use Dodocanfly\SolidEdgeConverter\Contracts\FilesystemInterface;
 use Dodocanfly\SolidEdgeConverter\Contracts\ProcessInterface;
 use Dodocanfly\SolidEdgeConverter\Exceptions\FileWritePermissionDeniedExtension;
 use Dodocanfly\SolidEdgeConverter\Exceptions\InputFileNotExistsExtension;
+use Dodocanfly\SolidEdgeConverter\Exceptions\SolidEdgeTranslationServicesException;
 use Dodocanfly\SolidEdgeConverter\Exceptions\WrongInputFiletypeException;
 use Dodocanfly\SolidEdgeConverter\Exceptions\WrongOutputFiletypeException;
 use Dodocanfly\SolidEdgeConverter\Exceptions\WrongSolidEdgeTranslationServicesPathException;
 use ReflectionClass;
+
+# To generate 3D PDF files you must enable 3D PDF in:
+# C:\Program Files\Siemens\Solid Edge 2022\Program\Define_SolidEdge_Properties_ForWorkflow_ToSync.ini
+# set the following line to 1:
+# Export 3D PDF from Part or Assembly=1
+
+/**
+ * dft => igs, pdf, dwg, dxf,   bmp, jpg, tif, emf
+ * psm => x_b/x_t, jt, xgl, sat, model, catpart, ifc, iges/igs, step/stp, 3mf, obj, fbx, stl, plmxml, pdf, u3d, sev, bip, qsm,   bmp, jpg, tif, wrl, bip
+ */
 
 class SolidEdgeConverter
 {
@@ -19,22 +30,9 @@ class SolidEdgeConverter
     public const IMAGE_QUALITY_HIGH = 'HIGH';
 
     public const COLOR_DEPTH_MONOCHROME = 1;
-    public const COLOR_DEPTH_256_COLORS = 8;
-    public const COLOR_DEPTH_TRUE_COLOR = 24;
+    public const COLOR_DEPTH_8_BIT = 8;
+    public const COLOR_DEPTH_24_BIT = 24;
 
-    private const AVAILABLE_QUALITIES = [
-        self::IMAGE_QUALITY_LOW,
-        self::IMAGE_QUALITY_MEDIUM,
-        self::IMAGE_QUALITY_HIGH,
-    ];
-    private const AVAILABLE_COLOR_DEPTHS = [
-        self::COLOR_DEPTH_MONOCHROME,
-        self::COLOR_DEPTH_256_COLORS,
-        self::COLOR_DEPTH_TRUE_COLOR,
-    ];
-    private const AVAILABLE_RESOLUTIONS = [
-        100, 200, 300, 600, 1200
-    ];
     private const AVAILABLE_INPUT_FILE_TYPES = [
         'dft'
     ];
@@ -64,6 +62,8 @@ class SolidEdgeConverter
 
     private array $defaultValues = [];
 
+    private array $errors = [];
+
 
     public function __construct(FilesystemInterface $filesystem, ProcessInterface $process)
     {
@@ -71,18 +71,19 @@ class SolidEdgeConverter
         $this->process = $process;
     }
 
-
-    public function setSolidEdgeTranslationServicesPath(string $solidEdgeTranslationServicesPath): void
+    public function setSolidEdgeTranslationServicesPath(string $solidEdgeTranslationServicesPath): self
     {
         if (
             !$this->filesystem::isFileExists($solidEdgeTranslationServicesPath)
             || $this->filesystem::getExtension($solidEdgeTranslationServicesPath) !== 'exe'
         ) {
-            throw new WrongSolidEdgeTranslationServicesPathException('Path: ' . $solidEdgeTranslationServicesPath);
+            throw new WrongSolidEdgeTranslationServicesPathException(
+                'Wrong SolidEdgeTranslationServices path: "' . $solidEdgeTranslationServicesPath . '"'
+            );
         }
         $this->solidEdgeTranslationServicesPath = $solidEdgeTranslationServicesPath;
+        return $this;
     }
-
 
     public function from(string $inputFilePath): self
     {
@@ -96,7 +97,6 @@ class SolidEdgeConverter
         $this->inputFilePath = $inputFilePath;
         return $this;
     }
-
 
     public function to(string $outputFilePath): self
     {
@@ -112,13 +112,11 @@ class SolidEdgeConverter
         return $this;
     }
 
-
     public function width(int $width): self
     {
         $this->width = $width;
         return $this;
     }
-
 
     public function height(int $height): self
     {
@@ -126,27 +124,78 @@ class SolidEdgeConverter
         return $this;
     }
 
-
-    public function resolution(int $resolution): self
+    private function resolution(int $resolution): self
     {
         $this->resolution = $resolution;
         return $this;
     }
 
+    public function setResolution100(): self
+    {
+        return $this->resolution(100);
+    }
 
-    public function quality(string $quality): self
+    public function setResolution200(): self
+    {
+        return $this->resolution(200);
+    }
+
+    public function setResolution300(): self
+    {
+        return $this->resolution(300);
+    }
+
+    public function setResolution600(): self
+    {
+        return $this->resolution(600);
+    }
+
+    public function setResolution1200(): self
+    {
+        return $this->resolution(1200);
+    }
+
+    private function quality(string $quality): self
     {
         $this->quality = $quality;
         return $this;
     }
 
-
-    public function depth(int $depth): self
+    public function setQualityLow(): self
     {
-        $this->colorDepth = $depth;
+        return $this->quality(self::IMAGE_QUALITY_LOW);
+    }
+
+    public function setQualityMedium(): self
+    {
+        return $this->quality(self::IMAGE_QUALITY_MEDIUM);
+    }
+
+    public function setQualityHigh(): self
+    {
+        return $this->quality(self::IMAGE_QUALITY_HIGH);
+    }
+
+    private function colorDepth(int $colorDepth): self
+    {
+        $this->colorDepth = $colorDepth;
         return $this;
     }
 
+    public function setColorDepthMonochrome(): self
+    {
+        return $this->colorDepth(self::COLOR_DEPTH_MONOCHROME);
+    }
+
+    public function setColorDepth8bit(): self
+    {
+        return $this->colorDepth(self::COLOR_DEPTH_8_BIT);
+    }
+
+    public function setColorDepth24bit(): self
+    {
+        return $this->colorDepth(self::COLOR_DEPTH_24_BIT);
+    }
 
     public function solidEdgeVisible(): self
     {
@@ -154,6 +203,11 @@ class SolidEdgeConverter
         return $this;
     }
 
+    public function solidEdgeInvisible(): self
+    {
+        $this->solidEdgeVisible = 'FALSE';
+        return $this;
+    }
 
     public function multipleSheet(): self
     {
@@ -161,15 +215,65 @@ class SolidEdgeConverter
         return $this;
     }
 
+    public function singleSheet(): self
+    {
+        $this->multipleSheet = 'FALSE';
+        return $this;
+    }
 
     public function convert(): bool
     {
-        $this->setSolidEdgeTranslationServicesPath('C:\Program Files\Siemens\Solid Edge 2022\Program\SolidEdgeTranslationServices.exe');
+        if (!$this->filesystem::isFileExists($this->solidEdgeTranslationServicesPath)) {
+            throw new WrongSolidEdgeTranslationServicesPathException(
+                'Wrong SolidEdgeTranslationServices path: "' . $this->solidEdgeTranslationServicesPath . '"'
+            );
+        }
         $this->prepareParameters();
-        print_r(implode(' ', $this->command));
-        return true;
         $this->process->setCommand($this->command)->run();
-        return true;
+
+        if ($this->isSuccessful()) {
+            return true;
+        } else {
+            print_r($this->errors);
+        }
+        return false;
+    }
+
+    private function analyzeOutput(array $output): void
+    {
+        $this->clearErrors();
+        foreach ($output as $line) {
+            if ($this->isError($line)) {
+                $this->addError($line);
+                throw new SolidEdgeTranslationServicesException($line);
+            }
+        }
+    }
+
+    private function isError(string $outputLine): bool
+    {
+        return stristr($outputLine, 'error');
+    }
+
+    private function clearErrors(): void
+    {
+        $this->errors = [];
+    }
+
+    private function addError(string $error)
+    {
+        $this->errors[] = $error;
+    }
+
+    public function getErrors(): array
+    {
+        return $this->errors;
+    }
+
+    private function isSuccessful(): bool
+    {
+        $this->analyzeOutput($this->process->getOutput());
+        return empty($this->errors);
     }
 
 
@@ -224,5 +328,4 @@ class SolidEdgeConverter
     {
         return $this->isFileTypeAllowed($path, self::AVAILABLE_OUTPUT_FILE_TYPES);
     }
-
 }
