@@ -64,11 +64,14 @@ class SolidEdgeConverter
 
     private array $errors = [];
 
+    private string $cliEncoding = '';
 
-    public function __construct(FilesystemInterface $filesystem, ProcessInterface $process)
+
+    public function __construct(FilesystemInterface $filesystem, ProcessInterface $process, string $cliEncoding = '')
     {
         $this->filesystem = $filesystem;
         $this->process = $process;
+        $this->cliEncoding = $cliEncoding;
     }
 
     public function setSolidEdgeTranslationServicesPath(string $solidEdgeTranslationServicesPath): self
@@ -270,7 +273,7 @@ class SolidEdgeConverter
 
     private function addError(string $error)
     {
-        $this->errors[] = iconv('CP1250', 'UTF-8', $error);;
+        $this->errors[] = $this->cliEncoding !== '' ? iconv($this->cliEncoding, 'UTF-8', $error) : $error;
     }
 
     public function getErrors(): array
