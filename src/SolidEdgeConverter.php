@@ -262,7 +262,7 @@ class SolidEdgeConverter
 
     private function addError(string $error)
     {
-        $this->errors[] = $error;
+        $this->errors[] = iconv('CP1250', 'UTF-8', $error);;
     }
 
     public function getErrors(): array
