@@ -251,6 +251,7 @@ class SolidEdgeConverter
     {
         $this->clearErrors();
         foreach ($output as $line) {
+            $line = iconv('CP1250', 'UTF-8', $line);
             if ($this->isError($line)) {
                 $this->addError($line);
                 throw new SolidEdgeTranslationServicesException($line);
